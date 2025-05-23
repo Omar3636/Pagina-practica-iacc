@@ -4,7 +4,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     left: 8vw;
-    width: 86vw;
 }
 
 #caja-logo-principal {
@@ -158,11 +157,16 @@ nav li{
     margin-left: 50px;
 }
 
-#videos-relacionaods {
-    border: 2px solid black;
+#videos-relacionados {
+    padding: 1px;
+    margin-bottom: 3vh;
 }
 
-.videos {
+#titulo7 {
+    margin-bottom: 1vh;
+}
+
+.video {
     width: 420px;
     height: 215px;                                              
 }
@@ -173,4 +177,82 @@ nav li{
 
 .img {
     margin-left: 70px;
+}
+
+#lema {
+    margin-top: 2vh;
+}
+
+@media screen and (max-width: 500px) {
+
+    #arbol-logo-principal {
+        position:relative;
+    }
+
+    .item-enlace {
+        display:block;
+        margin-bottom: 0.5vh;
+    }
+
+    .login-register {
+        position: absolute;
+        top: 3vh;
+        left: 27vh;
+    }
+
+    #login {
+        position: absolute;
+        top: 6vh;
+        left: 58vw;
+    }
+
+    #p-actividades {
+        margin-bottom: 1vh;
+    }
+
+    .item-sin-orden {
+        margin-bottom: 1vh;
+    }
+
+    #mapa {
+        margin-bottom: 4vh;
+    }
+
+    .item-lista-ordenada {
+        width: 85vw;
+        margin-bottom: 1vh;
+    }
+
+    .videos1 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        right: 16%;
+    }
+
+    #caja-img {
+    padding: 0;
+    margin-bottom: 2vh;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        mix-blend-mode: multiply;
+        display: block;
+        position: relative;
+        right: 22.5%;
+        z-index: 0;
+    }
+
+    .video {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (min-width:701px) {
+
 }
