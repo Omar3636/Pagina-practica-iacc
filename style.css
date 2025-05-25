@@ -177,6 +177,49 @@ nav li{
     margin-bottom: 2vh;
 }
 
+#formulario {
+    border: 2px, solid, #000100;
+    padding: 2vh;
+    width: 40vw;
+}
+#nickname {
+    font-style:oblique;
+    width: 30vw;
+}
+#nombreapellido {
+    font-style:oblique;
+    width: 30vw;
+}
+#campo-tipo-documento {
+    width: 29vw;
+    margin-bottom: 1vh;
+}
+#boton-enviar {
+    width: 15vw;
+    height: 5vh;
+    margin-top: 2vh;
+    position: relative;
+    left: 10vw;
+    font-size: large;
+}
+#adress {
+    padding: 2vh;
+}
+#copyright {
+    position: relative;
+    left: 37vw;
+    margin: 2vh, 2vw, 2vh, 2vw;
+}
+.leyenda {
+    font-weight: 700;
+    display: block;
+    padding: 0.5vh;
+
+}
+.input-padron {
+    margin-bottom: 1vh;
+}
+
 @media screen and (max-width: 500px) {
 
     #arbol-logo-principal {
