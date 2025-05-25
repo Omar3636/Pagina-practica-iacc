@@ -44,6 +44,12 @@ body p {
     font-size: 20px;
 }
 
+.contenedor-header {
+    width: 86vw;
+    border: 2px solid darkgreen;
+}
+
+
 .contenedor-body {
     width: 86vw;
     border: 2px solid darkgreen;
@@ -251,6 +257,73 @@ nav li{
         margin-bottom: 15px;
     }
 
+}
+
+@media print {
+    body {
+        background: white !important;
+        color: black !important;
+    }
+
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    img, svg {
+        filter: grayscale(100%) !important;
+    }
+
+    .no-imprimir, nav, footer, .boton {
+        display: none !important;
+    }
+
+    a {
+        color: black !important;
+        text-decoration: underline !important;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        page-break-inside: avoid;
+        color: black;
+    }
+
+    iframe[src*="youtube.com"], 
+    iframe[src*="youtube-nocookie.com"], 
+    .video-container {
+        display: none !important;
+    }
+
+    .mapa-interactivo, iframe[src*="maps.google"] {
+    display: none !important;
+    }
+    
+    .mapa-impresion {
+        display: block !important;
+        filter: grayscale(100%) !important;
+        width: 100% !important;
+    }
+
+    #titulo1 {
+        color: black;
+    }
+
+    .titulo {
+        color:black;
+        font-size:xx-large;
+    }
+
+    .contenedor-header {
+        width: 86vw;
+        border: 2px solid dark;
+    }
+
+
+    .contenedor-body {
+        width: 86vw;
+        border: 2px solid dark;
+    }
 }
 
 @media screen and (min-width:701px) {
