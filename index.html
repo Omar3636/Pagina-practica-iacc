@@ -4,7 +4,7 @@
 
     <head>
 
-        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <meta name="viewport" content="width-device-width">
         <meta charset="UTF-8">
         <title>Fundación Medio Ambiente</title>
         <!--<style type="text/css">
@@ -13,7 +13,6 @@
             .mision {color: blue; font-family: Verdana; font-size: medium;}
         </style> -->
         <link rel="stylesheet"type="text/css" href="style.css" media="all">
-        <link rel="stylesheet" href="reset.css">
 
     </head>
 
@@ -40,27 +39,25 @@
         </header>
 
         <main id="main" class="contenedor-body">
-            <section id="quienes-somos">
+            <div id="contenedor-grid">
+                <div id="quienes-somos">
 
-                <h1 class="titulo" id="titulo1"><strong>¿Quienes Somos? </strong>Fundación Medio Ambiente</h1><br>
-    
-                <p class="mision">Somos una fundación <strong>sin animos de lucro</strong> que busca crear conciencia sobre el cambio climatico y sus efectos en el medio ambiente, promovemos regulaciones a grandes empresas y reparación de daños</p><br>
-    
-                <p class="mision"><em>Nuestra misión es: <strong>"Concientizar a la mayor cantidad de gente posible y revertir la destrucción de nuestro medio ambiente"</strong>.</em></p>
-    
-                <p class="mision">Para ello realizamos eventos ocasionalmente dónde realizamos plantación de arboles, grupos de limpieza en zona, conferencias informativas y protestas organizadas para promover y presionar a gobiernos para que legislen con leyes que favorezcan al medio ambien, como los cambios a nivel personal que contribuyan.</p>
-    
-            </section>
+                    <h1 class="titulo" id="titulo1"><strong>¿Quienes Somos? </strong>Fundación Medio Ambiente</h1><br>
+        
+                    <p class="mision">Somos una fundación <strong>sin animos de lucro</strong> que busca crear conciencia sobre el cambio climatico y sus efectos en el medio ambiente, promovemos regulaciones a grandes empresas y reparación de daños</p><br>
+        
+                    <p class="mision"><em>Nuestra misión es: <strong>"Concientizar a la mayor cantidad de gente posible y revertir la destrucción de nuestro medio ambiente"</strong>.</em></p>
+        
+                    <p class="mision">Para ello realizamos eventos ocasionalmente dónde realizamos plantación de arboles, grupos de limpieza en zona, conferencias informativas y protestas organizadas para promover y presionar a gobiernos para que legislen con leyes que favorezcan al medio ambien, como los cambios a nivel personal que contribuyan.</p>
 
-            <!--<iframe src="pruebas.html" height="400" width="800" name="demo">
+                    <!--<iframe src="pruebas.html" height="400" width="800" name="demo">
 
-                <p>Su navegador no es compatible con iframes</p>
-              
-            </iframe>-->
-
-            <section class="activades-realizadas" id="actividades-realizadas">
-
-                <h2 id="titulo2" class="titulo">Actividades Realizadas</h2><br>
+                        <p>Su navegador no es compatible con iframes</p>
+                    
+                    </iframe>-->
+                </div>
+                <div class="activades-realizadas" id="actividades-realizadas">
+                    <h2 id="titulo2" class="titulo">Actividades Realizadas</h2><br>
                     <p id="p-actividades">Mira nuestras ultimas actividades y el impacto que hemos tenido actuando en grupo por un bien común</p>
                     <ul id="lista-sin-ordenar" class="lista-sin-ordenar">
                         <li class="item-sin-orden"><a href="actividades-377.html" class="enlace-lista">Recojimos toneladas de basura en Puente Alto mejorando enormemente el entorno</a></li>
@@ -68,83 +65,129 @@
                         <li class="item-sin-orden"><a href="actividad-375.html" class="enlace-lista">Logramos impulsar la ley "El que contamina, clausura eterna"</a></li>
                         <li class="item-sin-orden"><a href="actividades-index.html" class="enlace-lista" id="todas"><strong>Todas las actividades realizadas...</strong></a></li>
                     </ul>
-
-            </section>
-
-            <section class="proximos-eventos" id="proximos-eventos">
-
-                <div class="mapa-contenido">
-                    <h2 class="titulo" id="titulo3">Nuestra Próximo evento</h2>
-                    <p>Puedes ubicar el lugar de nuestro proximo evento en este mapa</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5599.105162225303!2d-70.65904374247474!3d-33.44284873848454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a6fd47e465%3A0x5d0fa12b4d88ae82!2sPalacio%20de%20La%20Moneda!5e0!3m2!1ses-419!2scl!4v1707356639372!5m2!1ses-419!2scl" id="mapa" class="mapa-interactivo" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <h3 class="titulo" id="titulo4">Próximos eventos...</h3>
-                    <ol id="lista-ordenada" style="border: 2px; border-color:black; width:100vw; position:static">
-                        <li class="item-lista-ordenada">Limpieza de río Mapocho en las afueras de Santiago.</li>
-                        <li class="item-lista-ordenada">Protesta pacifica en la Alameda para exijir reparaciónes en Quintero a Empresas responsables.</li>
-                        <li class="item-lista-ordenada">Campaña de sembrado de arboles en cajón del Maipo.</li>
-                        <li class="item-lista-ordenada">Conferencia de actualización sobre el cambio climatico y su situación mundial en Foro abierto.</li>
-                        <p><a href="proximos-eventos.html"><strong>Más detalles sobre eventos futuros</strong></a></p>
-                    </ol>
                 </div>
-
-            </section>
+                <div class="proximos-eventos" id="proximos-eventos">
+                    <div class="mapa-contenido">
+                        <h2 class="titulo" id="titulo3">Próximo evento</h2>
+                        <p>Puedes ubicar el lugar de nuestro proximo evento en este mapa</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5599.105162225303!2d-70.65904374247474!3d-33.44284873848454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a6fd47e465%3A0x5d0fa12b4d88ae82!2sPalacio%20de%20La%20Moneda!5e0!3m2!1ses-419!2scl!4v1707356639372!5m2!1ses-419!2scl" id="mapa" class="mapa-interactivo" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <h3 class="titulo" id="titulo4">Otros próximos eventos...</h3>
+                        <ol id="lista-ordenada" style="border: 2px; border-color:black; width:100vw; position:static">
+                            <li class="item-lista-ordenada">Limpieza de río Mapocho en las afueras de Santiago.</li>
+                            <li class="item-lista-ordenada">Protesta pacifica en la Alameda para exijir reparaciónes en Quintero a Empresas responsables.</li>
+                            <li class="item-lista-ordenada">Campaña de sembrado de arboles en cajón del Maipo.</li>
+                            <li class="item-lista-ordenada">Conferencia de actualización sobre el cambio climatico y su situación mundial en Foro abierto.</li>
+                            <p><a href="proximos-eventos.html"><strong>Más detalles sobre eventos futuros</strong></a></p>
+                        </ol>
+                    </div>
+                    <section class="misionvision" id="misionvision">
     
-            <section class="misionvision" id="misionvision">
-    
-                <h3 id="titulo5" class="titulo">Misión Y Visión</h3>
+                        <h3 id="titulo5" class="titulo">Misión Y Visión</h3>
                 
-                <div class="contenido-misionvision">
-                    <ul class="lista-misionvision">
-                        <li class="items">Concientizar a la sociedad</li>
-                        <li class="items">Impulsar leyes a favor del medio ambiente</li>
-                        <li class="items">Reparación de daños por empresas</li>
-                        <li class="items">Mejorar la calidad de nuestro entorno</li>
-                        <li class="items">Actividades de impacto</li>
-                        <li class="items">Limpieza de areas contaminadas</li><br><br>
-                    </ul>
-                </div>
-                <div class="caja-video">
-                    <iframe width="560" height="315" class="videos1" src="https://www.youtube.com/embed/Tx0yw5R2XpY?si=tz5xv7uvu7O_9Enn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe width="560" height="315" class="videos1" src="https://www.youtube.com/embed/Y5ZjqpjTKMI?si=NVTz22Krv5C4DGmX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+                        <div class="contenido-misionvision">
+                            <ul class="lista-misionvision">
+                                <li class="items">Concientizar a la sociedad</li>
+                                <li class="items">Impulsar leyes a favor del medio ambiente</li>
+                                <li class="items">Reparación de daños por empresas</li>
+                                <li class="items">Mejorar la calidad de nuestro entorno</li>
+                                <li class="items">Actividades de impacto</li>
+                                <li class="items">Limpieza de areas contaminadas</li><br><br>
+                            </ul>
+                        </div>
+                        <div class="caja-video">
+                            <iframe width="560" height="315" class="videos1" src="https://www.youtube.com/embed/Tx0yw5R2XpY?si=tz5xv7uvu7O_9Enn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe width="560" height="315" class="videos1" src="https://www.youtube.com/embed/Y5ZjqpjTKMI?si=NVTz22Krv5C4DGmX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
 
-            </section>
-
-            <section class="temas-interes" id="temas-interes">
-                <h4 id="titulo6" class="titulo">Temas de interés</h4>
-                <p>La misión de nuestra fundación es mejorar el entorno en el que vivimos, concientizar a la población para evitar retrocesos sobre lo avanzado,</p>
-                <p>promover actividades de acción que reflejen un cambio inmediato, como actividades con visión a futuro como planta de arboles y</p>
-                <p>promulgación de leyes que regulem ,castigen e inabiliten empresarios inconcientes que no cuidan al medio ambiente.</p>
-                <p>Y recuerda nuestro lema y <strong>motivate</strong> a apoyar para cambiar la realidad.</p>
-                <pre id="lema">
-                    Conciencia climatica
-                    sin conciencia de clase
-                    es pura jardinería.
-                       - Eduardo Galeano
-                </pre>
-                <div id="caja-img">
-                    <img src="imagenes/fundacion.jpg" alt="imagen reciclaje" width="300" height="250" class="img" id="img1">
-                    <img src="imagenes/fundacion1.jpg" alt="mundo en nuestras manos" width="300" height="250" class="img" id="img2">
-                    <img src="imagenes/fundacion2.jpg" alt="departamentos verdes china" width="300" height="250" class="img" id="img3">
+                    </section>
                 </div>
-                <iframe id='audio_16958255' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='border:1px solid #EEE; box-sizing:border-box; width:100%;' src='https://www.ivoox.com/player_ej_16958255_4_1.html?c1=ff6600' loading='lazy'></iframe>
-                <div class="vision-definicion">
-                    <p>Algunas definiciones a tener en cuenta.</p>
-                    <dl class="lista-definiciones">
-                        <dt class="item-titulo"><strong>Gases de efecto invernadero:</strong></dt>
-                        <dd class="item-definicion"><em>Sustancias químicas que retienen calor del sol y elevan las temperaturas.</em></dd>
-                        <dt class="item-titulo"><strong>Cambio transformador:</strong></dt>
-                        <dd class="item-definicion"><em>Un cambio climático que produce grandes transformaciones.</em></dd>
-                    </dl>
+                <div class="temas-interes" id="temas-interes">
+                    <h4 id="titulo6" class="titulo">Temas de interés</h4>
+                    <p>La misión de nuestra fundación es mejorar el entorno en el que vivimos, concientizar a la población para evitar retrocesos sobre lo avanzado,</p>
+                    <p>promover actividades de acción que reflejen un cambio inmediato, como actividades con visión a futuro como planta de arboles y</p>
+                    <p>promulgación de leyes que regulem ,castigen e inabiliten empresarios inconcientes que no cuidan al medio ambiente.</p>
+                    <p>Y recuerda nuestro lema y <strong>motivate</strong> a apoyar para cambiar la realidad.</p>
+                    <pre id="lema">
+                        Conciencia climatica
+                        sin conciencia de clase
+                        es pura jardinería.
+                        - Eduardo Galeano
+                    </pre>
+                    <div id="caja-img">
+                        <img src="imagenes/fundacion.jpg" alt="imagen reciclaje" width="300" height="250" class="img" id="img1">
+                        <img src="imagenes/fundacion1.jpg" alt="mundo en nuestras manos" width="300" height="250" class="img" id="img2">
+                        <img src="imagenes/fundacion2.jpg" alt="departamentos verdes china" width="300" height="250" class="img" id="img3">
+                    </div>
+                    <iframe id='audio_16958255' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='border:1px solid #EEE; box-sizing:border-box; width:100%;' src='https://www.ivoox.com/player_ej_16958255_4_1.html?c1=ff6600' loading='lazy'></iframe>
+                    <div class="vision-definicion">
+                        <p>Algunas definiciones a tener en cuenta.</p>
+                        <dl class="lista-definiciones">
+                            <dt class="item-titulo"><strong>Gases de efecto invernadero:</strong></dt>
+                            <dd class="item-definicion"><em>Sustancias químicas que retienen calor del sol y elevan las temperaturas.</em></dd>
+                            <dt class="item-titulo"><strong>Cambio transformador:</strong></dt>
+                            <dd class="item-definicion"><em>Un cambio climático que produce grandes transformaciones.</em></dd>
+                        </dl>
+                    </div>
                 </div>
-            </section>
+                <div class="videos-relacionados" id="videos-relacionados">
+                    <h5 id="titulo7" class="titulo">Videos relacionados...</h5>
+                    <iframe class="video" width="420" height="100%" src="https://www.youtube.com/embed/VY2yv3zMOsI?si=LyVVArCMZISFoZ-N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="video" width="420" height="215" src="https://www.youtube.com/embed/p1EJBEn3HuQ?si=FqWggikpijciop-q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="video" width="420" height="215" src="https://www.youtube.com/embed/mGoGHc4oFRE?si=TzbKRdsA2ye437WK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div id="formulario-container">
+                    <h6 class="titulo" id="titulo8">Formulario de Registro</h6>
+                    <form id="formulario">
+                        <label for="nickname" id="nickname" class="leyenda">Nickname</label>
+                        <input type="text" id="nickname" class="input-padron" required>
 
-            <section class="videos-relacionados" id="videos-relacionados">
-                <h5 id="titulo7" class="titulo">Videos relacionados...</h5>
-                <iframe class="video" width="420" height="100%" src="https://www.youtube.com/embed/VY2yv3zMOsI?si=LyVVArCMZISFoZ-N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <iframe class="video" width="420" height="215" src="https://www.youtube.com/embed/p1EJBEn3HuQ?si=FqWggikpijciop-q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <iframe class="video" width="420" height="215" src="https://www.youtube.com/embed/mGoGHc4oFRE?si=TzbKRdsA2ye437WK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </section>
+                        <label for="nombreapellido" id="nombre-y-apellido" class="leyenda">Nombre y Apellido</label>
+                        <input type="text" id="nombreapellido" class="input-padron" required>
+
+                        <fieldset id="campo-tipo-documento" class="input-padron">
+                            <legend id="tipo-documento" class="leyenda">¿Tipo de documento?</legend>
+                            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">DNI</label>
+                            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">RUT</label>
+                            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Cédula</label>
+                            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Pasaporte</label>
+                        </fieldset>
+
+                        <label for="numero-documento" id="numero-documento" class="leyenda">Número de Documento</label>
+                        <input type="number" id="numero-documento" class="input-padron" required placeholder="XX.XXX.XXX-X"><br>
+
+                        <label for="fecha-nacimiento" id="fecha-nacimiento" class="leyenda">Fecha de nacimiento</label>
+                        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" class="input-padron"><br>
+
+                        <label for=”sexo” id="sexo" class="leyenda">Sexo: </label>
+                        <input type="radio" id="opcion1" name="opcion" value="opcion1" class="input-padron">
+                        <label for="opcion1" id="masculino" class="opcion">Masculino</label>
+                        <input type="radio" id="opcion2" name="opcion" value="opcion2" class="input-padron">
+                        <label for="opcion2" id="femenino" class="opcion">Femenino</label><br>
+
+                        <label for="correoelectronico" id="correo-electronico" class="leyenda">Correo Electrónico</label>
+                        <input type="email" id="correoelectronico" class="input-padron" required placeholder="ejemplo@dominio.com"><br>
+
+                        <label for="numero" id="telefono" class="leyenda">Teléfono</label>
+                        <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) X XXXX XXXX"><br>
+
+                        <label for="comentario" id="comentarios" class="leyenda">Comentarios</label>
+                        <textarea id="comentario" cols="70" rows="10" class="input-padron"></textarea required><br>
+
+                        <fieldset class="input-padron">
+                            <legend id="horario-disponible" class="leyenda">¿En cuál horario puede acudir a nuestros eventos?</legend>
+                            <select>
+                                <option>Mañana</option>
+                                <option>Tarde</option>
+                                <option>Noche</option>
+                            </select>
+                        </fieldset>
+                        
+                        <label class="checkbox" id="novedades" class="leyenda"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Fundación Medio Ambiente?</label>
+                        <input type="submit" value="Enviar Formulario" class="enviar" id="boton-enviar">
+
+                    </form>
+                </div>
+            </div>
 
         </main>
 

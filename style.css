@@ -2,25 +2,20 @@ body {
     color: rgb(2, 68, 2);
     background: rgb(237, 250, 241);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    left: 8vw;
 }
 
-#caja-logo-principal {
-    position: relative;
-    left: 33vw;
+#contenedor-grid {
+    display:grid;
+    grid-template-columns: 750px 750px;
+    gap: 10px;
 }
 
-#caja {
-    width: 86vw;
-    position: relative;
-    margin: 0 0 2vh 0;
+#quienes-somos {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 #header {
-    position: static;
-    margin: 20px 0;
-    padding: 10px 0;
     background: linear-gradient(rgb(115, 193, 241), rgb(239, 246, 248));
     border-bottom: none;
 }
@@ -28,9 +23,6 @@ body {
 #main {
     background: linear-gradient(rgba(45, 112, 45, 0.588), white);
     border-top: none;
-    padding: 2vh 1.5vw;
-    width: 83vw;
-
 }
 
 #footer {
@@ -45,13 +37,11 @@ body p {
 }
 
 .contenedor-header {
-    width: 86vw;
     border: 2px solid darkgreen;
 }
 
 
 .contenedor-body {
-    width: 86vw;
     border: 2px solid darkgreen;
 }
 
@@ -70,8 +60,8 @@ nav li{
 
 .login-register {
     position: relative;
-    bottom: 31vh;
-    left: 14vw;
+    bottom: 32vh;
+    left: 9vw;
 }
 
 #quienes-somos {
@@ -121,14 +111,11 @@ nav li{
 #address {
     font-size: 10px;
     background: rgb(222, 244, 228);
-    width: 86vw;
 }
 
 
 #actividades-realizadas {
     position:static;
-    width: 86vw;
-
 }
 
 #tabla {
@@ -155,9 +142,6 @@ nav li{
     caption-side: top;
 }
 
-#cuadro-actividades {
-    width: 86vw;
-}
 
 .videos1 {
     margin-left: 50px;
@@ -187,6 +171,10 @@ nav li{
 
 #lema {
     margin-top: 2vh;
+}
+
+#formulario-container {
+    margin-bottom: 2vh;
 }
 
 @media screen and (max-width: 500px) {
